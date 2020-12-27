@@ -1,0 +1,62 @@
+/* ---------------------- Css Reset --------------------- */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* ---------------------- container --------------------- */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f6f6f6;
+    width: 100vw;
+    height: 100vh;
+}
+.heading{
+    color:#40514e;
+    line-height: 2.5rem;
+}
+.heading h1{
+    color: #ea5455;
+    font-weight: 900;
+}
+
+/* ----------------------- buttons ---------------------- */
+.btns{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.btns button{
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 10px;
+}
+.btns #sv{
+    background-color:#ea5455;
+    color: white;
+}
+
+/* ---------------------- SUPERHERO --------------------- */
+.super{
+    line-height: 1.7;   
+}
+.super>h2{
+    color: #40514e;
+}
+.super>h1{
+    font-weight: 900;
+    color: #ea5455;
+    font-size: 4rem;
+    letter-spacing:3px;   
+}
